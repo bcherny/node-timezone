@@ -1,6 +1,6 @@
 {
   "name": "node-timezone",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get the server's timezone",
   "main": "index.js",
   "scripts": {

@@ -15,8 +15,8 @@ npm install --save node-timezone
 ## Usage
 
 ```js
-var timezone = require('node-timezone')
-console.log(timezone()) // "America/Los_Angeles"
+var getTimezone = require('node-timezone').getTimezone
+console.log(getTimezone()) // "America/Los_Angeles"
 ```
 
 ## Tests
