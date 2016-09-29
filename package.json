@@ -1,0 +1,33 @@
+{
+  "name": "node-timezone",
+  "version": "0.0.1",
+  "description": "Get the server's timezone",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bcherny/node-timezone.git"
+  },
+  "keywords": [
+    "time",
+    "zone",
+    "timezone",
+    "tz",
+    "utc",
+    "pst",
+    "est",
+    "date"
+  ],
+  "author": "Boris Cherny <boris@performancejs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcherny/node-timezone/issues"
+  },
+  "homepage": "https://github.com/bcherny/node-timezone#readme",
+  "dependencies": {
+    "lodash": "^4.16.2",
+    "moment-timezone": "^0.5.5"
+  }
+}
