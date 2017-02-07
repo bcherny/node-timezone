@@ -1,7 +1,7 @@
 test:
   override:
-    - nvm use 0.10 && npm test
-    - nvm use 0.12 && npm test
-    - nvm use 4.0 && npm test
-    - nvm use 6.0 && npm test
-    - nvm use 7.0 && npm test
+    - nvm install v0.10 && nvm use v0.10 && npm test
+    - nvm install v0.12 && nvm use v0.12 && npm test
+    - nvm install v4.0 && nvm use v4.0 && npm test
+    - nvm install v6.0 && nvm use v6.0 && npm test
+    - nvm install v7.0 && nvm use v7.0 && npm test
